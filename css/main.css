@@ -1,0 +1,28 @@
+body{
+	font-family: "HelveticaNeueW01-75Bold", "Helvetica", Arial, sans-serif;
+	margin: 0em;
+	
+}
+
+h1{
+	font-size: 3em;
+	color: white;
+}
+a{
+	text-decoration: none;
+	font-color: black;
+	color: white;
+	margin-right: 1.2em;	
+}
+
+.hidden{     visibility: hidden;     height: 0em; }
+
+.title-panel{
+	padding: 2em;
+	background: black;
+}
+
+#content-panel{
+	padding:2em;
+
+}

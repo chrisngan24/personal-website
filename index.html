@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="libs/jquery-1.10.1.min.js"></script>
+		<script src="libs/modernizr.custom.74850.js"></script>
+		<script src="js/indexFunctions.js"></script>
+		<script type="text/javascript">			  			
+			function changeContent(newContentId){				
+				$('.content-panel  .selected').removeClass('selected').addClass('hidden');
+				$('.content-panel   #' + newContentId).removeClass('hidden');
+				$('.content-panel   #' + newContentId).addClass('selected');
+			}
+
+		</script>
+	</head>
+	<body>
+		<div class="title-panel">
+		
+			<h1>Christopher Ngan</h1>
+			<nav>
+				<a href="cv/Christopher%20Ngan%20Technical.pdf">CV</a>
+					<a data="projects_content" href="#projects">Projects</a>
+				<a data="social_content" href="#social">Social</a>				
+			</nav>
+
+			
+			
+			
+			
+		</div>
+		<div id="content-panel">
+			<div class="content hidden" id="projects_content">Projects
+			</div>
+			<div class="content hidden" id="social_content">Social
+			</div>
+		</div>
+
+	</body>
+</html>
