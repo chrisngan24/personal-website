@@ -7,22 +7,148 @@ body{
 h1{
 	font-size: 3em;
 	color: white;
+	margin-top: 0.2em;
+}
+
+h2{
+	margin-bottom: 0.2em;
+	margin-top: 0.2em;
+}
+h3{
+	margin-bottom: 0.1em;
+	margin-top: 0.1em;
 }
 a{
-	text-decoration: none;
-	font-color: black;
-	color: white;
+	text-decoration: none;		
 	margin-right: 1.2em;	
+}
+
+.title-panel a:link{
+	color: white;
+}
+.title-panel a:visited{
+	color: white;
+}
+
+.title-panel a:hover{
+	color: #808080;
+}
+
+#content-panel a:link{
+	color:black;
+}
+#content-panel a:visited{
+	color:black;
+}
+#content-panel a:hover{
+	color:#808080 ;
+}
+
+#social-panel{
+	float: right;
+	display: inline-block;
+
+	
+}
+
+#name-panel{
+	 
+	display: inline-block;
+}
+
+.icon-list{
+	list-style: none;
 }
 
 .hidden{     visibility: hidden;     height: 0em; }
 
 .title-panel{
-	padding: 2em;
+	padding: 0.75em;
 	background: black;
+	color: white;
+}
+
+#twitter_icon{
+	background-position: -40px 0;
+}
+
+.social-media{
+	width: 20px;
+	height: 20px;
+	margin: 0 0 0 3px;
+	background-image: url('../img/twitter-bird.eps');
+
+}
+
+.social-text{
+	margin-left: 25px;
 }
 
 #content-panel{
 	padding:2em;
+	color: black;
+}
 
+.project-text{
+	display: inline-block;
+	vertical-align: top;		
+	width: 60%;
+	height: 200px;
+	position: relative;
+}
+
+.project-description{
+	display: inline-block;
+	vertical-align: top;
+	padding: 0.5em;
+}
+
+.project-links{
+	display: inline-block;
+	vertical-align: bottom;
+	
+}
+.project-image{
+	display: inline-block;	
+}
+.project-footer{
+	position: absolute;
+	height: auto;
+	bottom: 0;	
+}
+.project-techspecs{
+	
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.project-example-image{
+	height: 250px;
+	width:400px;
+	display: inline-block;
+}
+
+#manuscripter_image{
+	background-image: url('../img/manuscripter.png');	
+}
+
+#website_image{
+	background-image: url('../img/website.png');	
+}
+
+.project-panel{
+	margin: 0.5em;
+}
+
+.nav-bar{
+	padding-bottom: 0.5em;
+}
+
+.demo-link{
+	padding-right: 0.2em;
+	margin-right: 0em;
+}
+
+.code-link{
+	padding-left: 0.2em;
 }

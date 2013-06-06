@@ -10,18 +10,26 @@ $(function(){
 			console.log(this);
 		});
 
+		// $(window).bind('popstate', function(){
+	 //        _link = location.pathname.replace(/^.*[\\\/]/, ''); //get filename only
+	 //        debugger;	        
+  //       	loadContent(_link);
+  //   	});
+
 		function loadContent(link, id){
 			debugger;
-			var $oldContent = $mainContent.find('.selected')	;
-			if($oldContent != null){
+			var $oldContent = $mainContent.find('.selected');
+			var content = $.ajax
+			if($oldContent.length){
 				$oldContent.fadeOut(200, function(){
-					debugger;
+					
 					$oldContent.addClass('hidden')
 						.removeClass('selected');					
+					
 					fadeNewContent(id);
 				});
 			} 
-			//else
+			else
 				fadeNewContent(id);
 
 		}
@@ -32,12 +40,10 @@ $(function(){
 					.removeClass('hidden');
 				$newContent.fadeIn(200);
 		}
-		// $(window).bind('popstate', function(){
-	 //        _link = location.pathname.replace(/^.*[\\\/]/, ''); //get filename only
-  //       	loadContent(_link);
-  //   	});
+
 
 	} else{
+		
 		
 	}
 });
