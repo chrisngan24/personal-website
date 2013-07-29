@@ -26,6 +26,8 @@ a{
 	margin-right: 1.2em;	
 }
 
+
+
 .title-panel a:link{
 	color: white;
 }
@@ -33,9 +35,14 @@ a{
 	color: white;
 }
 
+ .selectedNav{
+	font-size:2em;
+}
+
 .title-panel a:hover{
 	color: #808080;
 }
+
 
 #content-panel a:link{
 	color:black;
@@ -49,9 +56,13 @@ a{
 
 #social-panel{
 	float: right;
-	display: inline-block;
+	display: inline-block;	
+}
 
-	
+#main_content{
+	text-align: center;
+	margin: 2em;
+	font-size : 2em;
 }
 
 #name-panel{
@@ -69,6 +80,21 @@ a{
 	padding: 0.75em;
 	background: black;
 	color: white;
+}
+
+ .big-panel{
+	position: absolute;
+	
+	margin: 5em;
+	text-align: center;
+
+}
+
+.remove-big-panel{
+
+	animation:mymove 5s infinite;
+	-webkit-animation:mymove 5s infinite; /* Safari and Chrome */
+
 }
 
 #twitter_icon{
@@ -96,7 +122,9 @@ a{
 	display: inline-block;
 	vertical-align: top;		
 	width: 60%;
-	height: 200px;
+	
+	float: left;
+	
 	position: relative;
 }
 
@@ -115,9 +143,9 @@ a{
 	display: inline-block;	
 }
 .project-footer{
-	position: absolute;
+	//position: absolute;
 	height: auto;
-	bottom: 0;	
+	//bottom: 0;	
 }
 .project-techspecs{
 	
@@ -127,6 +155,7 @@ a{
 
 .project-example-image{
 	height: 250px;
+	float: right;
 	width:400px;
 	display: inline-block;
 }
@@ -203,7 +232,10 @@ a{
 	font-weight: bold;
 }
 
+
+
 .code-link{
 	font-weight: bold;
 	padding-left: 0.2em;
 }
+
