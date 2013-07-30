@@ -1,4 +1,8 @@
 @import "variables.less";
+@import "nav.less";
+@import "projects.less";
+@import "learning.less";
+@import "experience.less";
 
 
 body{
@@ -9,7 +13,7 @@ body{
 
 h1{
 	font-size: 3em;
-	color: white;
+	color: @fontColorInverse;
 	margin-top: 0.2em;
 }
 
@@ -27,4 +31,40 @@ h4{
 a{
 	text-decoration: none;		
 	margin-right: 1.2em;	
+}
+
+.hidden{     visibility: hidden;     height: 0em; }
+#main_content{
+	text-align: center;
+	margin: 2em;
+	font-size : 2em;
+}
+
+
+#content-panel{
+	padding:2em;
+	color: black;
+}
+
+#content-panel a:link{
+	color:black;
+}
+#content-panel a:visited{
+	color:black;
+}
+#content-panel a:hover{
+	color:#808080 ;
+}
+
+.thumbnail{
+	width: 33%;
+	border: 0.1em solid black;
+	padding:0.5em;
+	// background-color: #808080 ;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	 -o-border-radius: 10px;
+	 -ms-border-radius: 10px;
+	 -khtml-border-radius: 10px;
+	 border-radius: 10px;
 }

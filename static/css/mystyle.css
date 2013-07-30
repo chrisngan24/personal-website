@@ -1,0 +1,186 @@
+.title-panel {
+  padding: 0.75em;
+  background: #000000;
+  color: #ffffff;
+}
+.title-panel a:link {
+  color: #ffffff;
+}
+.title-panel a:visited {
+  color: #ffffff;
+}
+.title-panel a:hover {
+  color: #808080;
+}
+.selectedNav {
+  font-size: 2em;
+}
+.social-media {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 3px;
+  background-image: url('../img/twitter-bird.eps');
+}
+.icon-list {
+  list-style: none;
+}
+.social-text {
+  margin-left: 25px;
+}
+#name-panel {
+  display: inline-block;
+}
+#social-panel {
+  float: right;
+  display: inline-block;
+}
+.nav-bar {
+  padding-bottom: 0.5em;
+}
+.big-panel {
+  position: absolute;
+  margin: 5em;
+  text-align: center;
+}
+.project-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+  float: left;
+  position: relative;
+}
+.project-description {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.5em;
+}
+.project-links {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.project-image {
+  display: inline-block;
+}
+.project-footer {
+  height: auto;
+}
+.project-techspecs {
+  font-size: 0.9em;
+  font-style: italic;
+}
+.project-example-image {
+  height: 250px;
+  float: right;
+  width: 400px;
+  display: inline-block;
+}
+#manuscripter_image {
+  background-image: url('../img/manuscripter.png');
+}
+#website_image {
+  background-image: url('../img/website.png');
+}
+#piano_image {
+  background-image: url('../img/inprogress.png');
+}
+.project-panel {
+  margin: 0.5em;
+}
+.demo-link {
+  padding-right: 0.2em;
+  margin-right: 0em;
+  font-weight: bold;
+}
+.code-link {
+  font-weight: bold;
+  padding-left: 0.2em;
+}
+.learning-panel {
+  margin: 0.5em;
+}
+.learning-content {
+  margin-top: 1em;
+}
+.learning-image {
+  height: 164px;
+  width: 226px;
+  display: inline-block;
+}
+.learning-description {
+  display: inline-block;
+  width: 75%;
+  vertical-align: top;
+  padding: 0.5em;
+}
+#uwaterloo_image {
+  background-image: url('../img/waterloo-logo.png');
+}
+#markham_image {
+  background-image: url('../img/markham-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.experience-panel {
+  margin: 0.5em;
+}
+.experience-description {
+  margin: 1em;
+  display: inline-block;
+}
+body {
+  font-family: "HelveticaNeueW01-75Bold", "Helvetica", Arial, sans-serif;
+  margin: 0em;
+}
+h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-top: 0.2em;
+}
+h2 {
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+h3 {
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+h4 {
+  margin: 0px 0px 0px 1em;
+}
+a {
+  text-decoration: none;
+  margin-right: 1.2em;
+}
+.hidden {
+  visibility: hidden;
+  height: 0em;
+}
+#main_content {
+  text-align: center;
+  margin: 2em;
+  font-size: 2em;
+}
+#content-panel {
+  padding: 2em;
+  color: black;
+}
+#content-panel a:link {
+  color: black;
+}
+#content-panel a:visited {
+  color: black;
+}
+#content-panel a:hover {
+  color: #808080 ;
+}
+.thumbnail {
+  width: 33%;
+  border: 0.1em solid black;
+  padding: 0.5em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
