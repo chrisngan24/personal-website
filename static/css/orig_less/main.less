@@ -63,32 +63,43 @@ a{
 	color:#808080 ;
 }
 
+@numberOfThumb:3;
+// @thumbWidth : (100%/@numberOfThumb-8);
+// @thumbMargin : (100%/@numberOfThumb- @thumbWidth )/2;
 .thumbnail{
-	width: 29%;
+	// width: 29%;
+	// width : @thumbWidth;
+	width: 100%;
 	height: 300px;
 	// height: auto;
-	border: 0.1em solid black;
-	padding:0.5em;
-	margin:0.2em;
+	// border: 0.1em solid black;
+	border: 0.5em solid @thumbnailBorder;
+	background-color: @thumbnailBackground;
+	// padding:0.5em;
+	// margin:0.2em;
 	// float: left;
 	// position: relative;
 	// background-color: #808080 ;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	 -o-border-radius: 10px;
-	 -ms-border-radius: 10px;	
-	 -khtml-border-radius: 10px;
-	 border-radius: 10px;
-	display: inline-block;
-	vertical-align: top;
+	// -webkit-border-radius: 10px;
+	// -moz-border-radius: 10px;
+	//  -o-border-radius: 10px;
+	//  -ms-border-radius: 10px;	
+	//  -khtml-border-radius: 10px;
+	//  border-radius: 10px;
+	// display: inline-block;
+	// vertical-align: top;
 }
-.row{
+.row-fluid{
 	// float: left;
 	// width: 100%;
 	// height: 100%;
 	// padding-left: auto;
 	// padding-right: 	 auto;
-	display: block;
+	// margin-left: auto;
+	// margin-right: auto;
+	// display: block;
+	margin:0.5em;
+
 	// position: absolute;
 }
 

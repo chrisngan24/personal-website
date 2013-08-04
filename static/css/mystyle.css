@@ -1,6 +1,6 @@
 .title-panel {
   padding: 0.75em;
-  background: #000000;
+  background: #e53232;
   text-align: center;
   color: #ffffff;
 }
@@ -99,9 +99,6 @@
 .learning-panel {
   margin: 0.5em;
   position: absolute;
-}
-#education_content .thumbnail {
-  width: 46%;
 }
 .learning-content {
   margin-top: 1em;
@@ -219,20 +216,11 @@ a {
   color: #808080 ;
 }
 .thumbnail {
-  width: 29%;
+  width: 100%;
   height: 300px;
-  border: 0.1em solid black;
-  padding: 0.5em;
-  margin: 0.2em;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  border-radius: 10px;
-  display: inline-block;
-  vertical-align: top;
+  border: 0.5em solid #e53232;
+  background-color: #ffffff;
 }
-.row {
-  display: block;
+.row-fluid {
+  margin: 0.5em;
 }
