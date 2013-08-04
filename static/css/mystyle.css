@@ -42,8 +42,8 @@
   padding-bottom: 0.2em;
 }
 .big-panel {
-  position: absolute;
-  margin: 5em;
+  margin-left: 5em;
+  margin-right: 5em;
   text-align: center;
 }
 .project-text {
@@ -98,6 +98,7 @@
 }
 .learning-panel {
   margin: 0.5em;
+  position: absolute;
 }
 #education_content .thumbnail {
   width: 46%;
@@ -233,10 +234,5 @@ a {
   vertical-align: top;
 }
 .row {
-  float: left;
-  width: 100%;
-  height: 100%;
-  padding-left: auto;
-  padding-right: auto;
   display: block;
 }

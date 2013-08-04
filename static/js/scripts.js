@@ -1,20 +1,19 @@
 $(function(){
-	if(Modernizr.history){
-		debugger;
+	if(Modernizr.history){		
 		var newHash = "",
 			$mainContent = $('#content-panel'),
 			bigPanel = 'big-panel';
 		//$('.title-panel').attr('height') = 200;
 		$(document).ready(function(){			
+			
 			$('#main_content').hide().removeClass('hidden').addClass('selected');
 			$('.title-panel').addClass(bigPanel);
 			$('#main_content').fadeIn(500);
+			$('nav').on('click', 'a', onNavClick);
 		})
 
-		$('nav').delegate('a', 'click', onNavClick);
 
 		function onNavClick(a){
-			
 			$('.title-panel.big-panel').fadeOut(100, function(){				
 				$('.title-panel').removeClass(bigPanel)
 				$('.title-panel').fadeIn(100);
