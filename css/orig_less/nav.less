@@ -1,0 +1,76 @@
+@import "variables.less";
+
+
+
+.title-panel{
+	padding: 0.75em;
+	background: @titleBackground;
+	text-align: center;
+	color: @fontColorInverse;
+
+	h1{
+		margin:0.2em;
+	}
+	a:link{
+		color: @fontColorInverse;
+	}
+	a:visited{
+		color: @fontColorInverse;
+	}
+	a:hover{
+		color: @selectedNav;
+	}
+
+}
+
+
+
+
+.selectedNav{
+	font-size:2em;
+}
+
+.social-media{
+	width: 20px;
+	height: 20px;
+	margin: 0 0 0 3px;
+	background-image: url('../img/twitter-bird.eps');
+
+}
+
+.icon-list{
+	list-style: none;
+}
+
+.social-text{
+	margin-left: 25px;
+}
+
+#name-panel{
+	 
+	display: inline-block;
+}
+
+#social-panel{
+	// float: right;
+	// display: inline-block;	
+	text-align: center;
+	.title-panel;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.nav-bar{
+	padding-bottom: 0.2em;
+}
+
+.big-panel{
+	// position: absolute;
+	// margin-left: 5em;
+	// margin-right: 5em;
+	 margin: 2em auto 2em auto;
+	text-align: center;
+
+}
