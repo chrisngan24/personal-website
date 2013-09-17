@@ -1,59 +1,6 @@
 <div class="content hidden" id="education_content">
 	<h2 class="title">Formal Education</h2>
-	<div class="education-panel">
-		<div class="row-fluid">
-			<div class="span6" >
-				<div class="thumbnail" ontouchstart="this.classList.toggle('hover');" style="height:400px;">
-					<div class="flipper">
-						<div class="front">
-							<h3 class="title">Engineering Tools</h3>			
-						</div>
-						<div class="back">
-							<ul>
-								<li>Software
-									<ul>
-										<li>On the go (PhoneGap and Android)</li>
-										<li>On the web (HTML5, Javascript, JQuery and CSS)</li>
-										<li>At the office (C#)</li>
-										<li>When you need it done (Python)</li>
-										<li>To store it (SQL and MongoDB)</li>
-										<li>Keeping track (Git and Mercurial)</li>
-									</ul>
-								</li>
-								<li>Hardware
-									<ul>
-										<li>Circuit Design</li>
-										<li>PCB</li>
-										<li>Arduino</li>
-										<li>Building circuits</li>						
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="span6">
-				<div class="thumbnail" ontouchstart="this.classList.toggle('hover');">
-					<div class="flipper">
-						<div class="front">
-							<h3 class="title">Abilities</h3>			
-						</div>
-						<div class="back">
-							<ul>
-								<li>Music
-									<ul>
-										<li>Guitar</li>
-										<li>Drums</li>
-										<li>Piano</li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	<div class="education-panel">		
 		<div class="row-fluid">
 			<div class="span6">
 				<div class="thumbnail" ontouchstart="this.classList.toggle('hover');">

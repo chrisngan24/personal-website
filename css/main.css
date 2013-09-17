@@ -1,244 +1,246 @@
-body{
-	font-family: "HelveticaNeueW01-75Bold", "Helvetica", Arial, sans-serif;
-	margin: 0em;
-	
+.title-panel {
+  padding: 0.75em;
+  background: #e53232;
+  text-align: center;
+  color: #ffffff;
 }
-
-h1{
-	font-size: 3em;
-	color: white;
-	margin-top: 0.2em;
+.title-panel h1 {
+  margin: 0.2em;
 }
-
-h2{
-	margin-bottom: 0.2em;
-	margin-top: 0.2em;
+.title-panel a:link {
+  color: #ffffff;
 }
-h3{
-	margin-bottom: 0.1em;
-	margin-top: 0.1em;
+.title-panel a:visited {
+  color: #ffffff;
 }
-h4{
-	margin: 0px 0px 0px 1em;
+.title-panel a:hover {
+  color: #808080;
 }
-a{
-	text-decoration: none;		
-	margin-right: 1.2em;	
+.selectedNav {
+  font-size: 2em;
 }
-
-
-
-.title-panel a:link{
-	color: white;
+.social-media {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 3px;
+  background-image: url('../img/twitter-bird.eps');
 }
-.title-panel a:visited{
-	color: white;
+.icon-list {
+  list-style: none;
 }
-
- .selectedNav{
-	font-size:2em;
+.social-text {
+  margin-left: 25px;
 }
-
-.title-panel a:hover{
-	color: #808080;
+#name-panel {
+  display: inline-block;
 }
-
-
-#content-panel a:link{
-	color:black;
+#social-panel {
+  padding: 0.75em;
+  background: #e53232;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 2em;
 }
-#content-panel a:visited{
-	color:black;
+#social-panel h1 {
+  margin: 0.2em;
 }
-#content-panel a:hover{
-	color:#808080 ;
+#social-panel a:link {
+  color: #ffffff;
 }
-
-#social-panel{
-	float: right;
-	display: inline-block;	
+#social-panel a:visited {
+  color: #ffffff;
 }
-
-#main_content{
-	text-align: center;
-	margin: 2em;
-	font-size : 2em;
+#social-panel a:hover {
+  color: #808080;
 }
-
-#name-panel{
-	 
-	display: inline-block;
+.nav-bar {
+  padding-bottom: 0.2em;
 }
-
-.icon-list{
-	list-style: none;
+.big-panel {
+  margin: 2em auto 2em auto;
+  text-align: center;
 }
-
-.hidden{     visibility: hidden;     height: 0em; }
-
-.title-panel{
-	padding: 0.75em;
-	background: black;
-	color: white;
+.project-text {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
 }
-
- .big-panel{
-	position: absolute;
-	
-	margin: 5em;
-	text-align: center;
-
+.project-description {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 0.5em;
 }
-
-.remove-big-panel{
-
-	animation:mymove 5s infinite;
-	-webkit-animation:mymove 5s infinite; /* Safari and Chrome */
-
+.project-title {
+  text-align: center;
 }
-
-#twitter_icon{
-	background-position: -40px 0;
+.project-links {
+  display: inline-block;
+  vertical-align: bottom;
 }
-
-.social-media{
-	width: 20px;
-	height: 20px;
-	margin: 0 0 0 3px;
-	background-image: url('../img/twitter-bird.eps');
-
+.project-footer {
+  height: auto;
+  text-align: center;
 }
-
-.social-text{
-	margin-left: 25px;
+.project-techspecs {
+  font-size: 0.9em;
+  font-style: italic;
 }
-
-#content-panel{
-	padding:2em;
-	color: black;
+.project-example-image {
+  height: 250px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-.project-text{
-	display: inline-block;
-	vertical-align: top;		
-	width: 60%;
-	
-	float: left;
-	
-	position: relative;
+#manuscripter_image {
+  background-image: url('../img/manuscripter.png');
 }
-
-.project-description{
-	display: inline-block;
-	vertical-align: top;
-	padding: 0.5em;
+#website_image {
+  background-image: url('../img/website.png');
 }
-
-.project-links{
-	display: inline-block;
-	vertical-align: bottom;
-	
+#piano_image {
+  background-image: url('../img/elec-piano-1.jpg');
 }
-.project-image{
-	display: inline-block;	
+.demo-link {
+  font-weight: bold;
 }
-.project-footer{
-	//position: absolute;
-	height: auto;
-	//bottom: 0;	
+.code-link {
+  font-weight: bold;
 }
-.project-techspecs{
-	
-	font-size: 0.9em;
-	font-style: italic;
+.learning-panel {
+  margin: 0.5em;
+  position: absolute;
 }
-
-.project-example-image{
-	height: 250px;
-	float: right;
-	width:400px;
-	display: inline-block;
+.learning-content {
+  margin-top: 1em;
 }
-
-#manuscripter_image{
-	background-image: url('../img/manuscripter.png');	
+.learning-image {
+  height: 164px;
+  width: 226px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-#website_image{
-	background-image: url('../img/website.png');	
+.learning-description {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 0.5em;
 }
-
-#piano_image{
-	background-image: url('../img/inprogress.png');	
+#uwaterloo_image {
+  background-image: url('../img/waterloo-logo.png');
 }
-
-.project-panel{
-	margin: 0.5em;
+#markham_image {
+  background-image: url('../img/markham-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-.learning-panel{
-	margin: 0.5em;
+.experience-panel {
+  margin: 0.5em;
 }
-
-.learning-content{
-	margin-top: 1em;
+.experience-description {
+  margin: 1em;
+  text-align: center;
+  display: inline-block;
 }
-
-.learning-image{
-	height: 164px;
-	width: 226px;
-	display: inline-block;
+/* entire container, keeps perspective */
+/* flip the pane when hovered */
+.thumbnail:hover .flipper,
+.thumbnail.hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
-
-.learning-description{
-	display: inline-block;
-	width: 75%;
-	vertical-align: top;
-	padding: 0.5em;
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  position: relative;
 }
-
-.experience-panel{
-	margin: 0.5em;
+/* hide back of pane during swap */
+.front,
+.back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
-
-.experience-description{
-	margin:1em;
-	display: inline-block;
+/* front pane, placed above back */
+.front {
+  z-index: 2;
 }
-/*
-.experience-image{
-	height: 164px;
-	width: 226px;
-	display: inline-block;
-}*/
-
-#uwaterloo_image{
-	background-image: url('../img/waterloo-logo.png');
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
-
-#markham_image{
-	background-image: url('../img/markham-logo.png');	
-	background-repeat: no-repeat;
-	background-position: center;
+body {
+  font-family: Segoe UI, Helvetica, Arial, Tahoma;
+  margin: 0em;
+  background: #edd9c2;
+  background-position: center top;
+  background-size: stretch;
 }
-
-.nav-bar{
-	padding-bottom: 0.5em;
+h1 {
+  font-size: 3em;
+  color: #ffffff;
+  margin-top: 0.2em;
 }
-
-.demo-link{
-	padding-right: 0.2em;
-	margin-right: 0em;
-	font-weight: bold;
+h2 {
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
 }
-
-
-
-.code-link{
-	font-weight: bold;
-	padding-left: 0.2em;
+h3 {
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
 }
-
-.thumbnail{
-	width:50%;
+h4 {
+  margin: 0px 0px 0px 1em;
+}
+a {
+  text-decoration: none;
+  margin-right: 1.2em;
+}
+.title {
+  text-align: center;
+}
+.hidden {
+  visibility: hidden;
+  height: 0em;
+}
+#main_content {
+  text-align: center;
+  margin: 2em;
+  font-size: 2em;
+}
+#content-panel {
+  padding: 2em;
+  color: black;
+}
+#content-panel a:link {
+  color: black;
+}
+#content-panel a:visited {
+  color: black;
+}
+#content-panel a:hover {
+  color: #808080 ;
+}
+.thumbnail {
+  width: 100%;
+  height: 300px;
+  border: 0.5em solid #e53232;
+  background-color: #ffffff;
+}
+.row-fluid {
+  margin: 0.5em;
 }

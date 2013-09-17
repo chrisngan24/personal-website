@@ -85,7 +85,7 @@
 			</div>
 		</div>
 		<div class="row-fluid">
-			<div class="offset2 span4">
+			<div class="span4">
 				<div class="thumbnail">
 					<div class="flipper">
 						<div class="front">
@@ -117,7 +117,7 @@
 						<div class="front">
 							<h3 class="title">Talk Light</h3>
 							<div class="project-image">
-								<img class="project-example-image" id="smartwatch_image"/>
+								<img class="project-example-image" id="talklight_image"/>
 							</div>
 						</div>
 						<div class="back">								
@@ -127,6 +127,33 @@
 								<div class="project-footer">
 									<div class="project-techspecs">
 									Tech: Arduino, Flask, Require, MongoDB
+									</div>	
+									<div class="project-links">
+										<a class="code-link" href="https://bitbucket.org/nganman/personal-website/src">View Code</a>
+									</div>	
+								</div>															
+							</div>									
+						</div>		
+					</div>
+				</div>			
+			</div>
+			<div class="span4">
+				<div class="thumbnail">
+					<div class="flipper">
+						<div class="front">
+							<h3 class="title">MyoPhysio</h3>
+							<div class="project-image">
+								<img class="project-example-image" id="smartwatch_image"/>
+							</div>
+						</div>
+						<div class="back">								
+							<div class="project-text">
+								<div class="project-description">Participated in a
+
+								</div>
+								<div class="project-footer">
+									<div class="project-techspecs">
+										Tech: Android
 									</div>	
 									<div class="project-links">
 										<a class="code-link" href="https://bitbucket.org/nganman/personal-website/src">View Code</a>

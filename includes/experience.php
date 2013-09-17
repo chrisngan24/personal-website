@@ -6,9 +6,9 @@
 				<div class="thumbnail">
 					<div class="flipper">
 						<div class="front">
-							<h3 class="title">Nicoya Lifesciences (May 2013 - Present)</h3>
+							<h3 class="title">Nicoya Lifesciences (May - Aug 2013)</h3>
 							<h4 class="title">Product Developer</h4>
-							<div class="experience-image" id="markham_image"></div>
+							<div class="experience-image" id="nicoya_image"></div>
 						</div>
 						<div class="back">
 							<div class="experience-description">							
@@ -22,11 +22,11 @@
 				<div class="thumbnail">
 					<div class="flipper">
 						<div class="front">
-							<h3 class="title">Collaborative Systems Laboratory (January 2013 - Present)</h3>
+							<h3 class="title">Collaborative Systems Lab (Jan - Aug 2013)</h3>
 							<h4 class="title">Undergraduate Research Assistant</h4>									
+							<div class="experience-image" id="ura_image"></div>
 						</div>
 						<div class="back">
-							<div class="experience-image" id="markham_image"></div>
 							<div class="experience-description">							
 								Assistant in the Collaborative Systems Laboratory in the study of animations on table-top touch displays. Focusing on user interaction to quickly learn and understand functionality of device. Working with processing, open-source visual sketching language, in the construction of a technical framework to allow for re-usability of visual animations. 
 							</div>								

@@ -105,7 +105,9 @@
   background-image: url('../img/website.png');
 }
 #piano_image {
-  background-image: url('../img/inprogress.png');
+  background-image: url('../img/elec-piano-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .demo-link {
   font-weight: bold;
@@ -143,11 +145,28 @@
 }
 .experience-panel {
   margin: 0.5em;
+  padding: 0.5em;
 }
 .experience-description {
   margin: 1em;
   text-align: center;
   display: inline-block;
+}
+.experience-image {
+  height: 250px;
+  width: 226px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+#nicoya_image {
+  background-image: url('../img/nicoya.png');
+  margin-top: 2em;
+  background-size: contain;
+}
+#ura_image {
+  background-image: url('../img/waterloo-logo.png');
 }
 /* entire container, keeps perspective */
 /* flip the pane when hovered */
@@ -184,7 +203,7 @@
   -webkit-transform: rotateY(180deg);
 }
 body {
-  font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, "sans-serif";
+  font-family: Segoe UI, Helvetica, Arial, Tahoma;
   margin: 0em;
   background: #edd9c2;
   background-position: center top;
