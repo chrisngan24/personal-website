@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- <link rel="stylesheet" type="text/css" href="static/css/main.css"> -->
-		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<!--<script type="text/javascript" src="libs/jquery-1.10.1.min.js"></script>-->
 		<script type="text/javascript" src="libs/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="libs/modernizr.custom.74850.js"></script>

@@ -23,6 +23,7 @@
 						<div class="front">
 							<h3 class="title">Markham District High School<br/>Class of 2011</h3>
 							<div class="learning-image" id="markham_image"></div>
+							<!-- <img class="learning-image" src="../markham-logo.png"/> -->
 						</div>
 						<div class="back">
 							<div class="learning-description">							

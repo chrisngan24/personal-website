@@ -6,11 +6,11 @@ $(document).ready(function(){
 		//$('.title-panel').attr('height') = 200;
 		$(document).ready(function(){			
 			
-			$('#main_content').hide().removeClass('hidden').addClass('selected');
-			$('.title-panel').addClass(bigPanel);
-			$('#main_content').fadeIn(500);
-			$('nav').on('click', 'a', onNavClick);
 
+			$('#main_content').hide("slow").removeClass('hidden').addClass('selected');
+			$('.title-panel').addClass(bigPanel);
+			$('#main_content').fadeIn(5000);
+			$('nav').on('click', 'a', onNavClick);
 			// var iframe = document.getElementById("myFrame");
 			// iframe.src ="nav.html";
 			

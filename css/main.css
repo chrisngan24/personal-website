@@ -1,6 +1,6 @@
 .title-panel {
   padding: 0.75em;
-  background: #e53232;
+  background: #000000;
   text-align: center;
   color: #ffffff;
 }
@@ -36,13 +36,14 @@
 }
 #social-panel {
   padding: 0.75em;
-  background: #e53232;
+  background: #000000;
   text-align: center;
   color: #ffffff;
   position: absolute;
   bottom: 0;
   width: 100%;
   margin-bottom: 2em;
+  color: black;
 }
 #social-panel h1 {
   margin: 0.2em;
@@ -56,11 +57,14 @@
 #social-panel a:hover {
   color: #808080;
 }
+#social-panel a {
+  color: black;
+}
 .nav-bar {
   padding-bottom: 0.2em;
 }
 .big-panel {
-  margin: 2em auto 2em auto;
+  margin: 5em auto 2em auto;
   text-align: center;
 }
 .project-text {
@@ -96,16 +100,37 @@
   width: 80%;
   display: block;
   margin-left: auto;
+  border: none;
   margin-right: auto;
+  background-position: center;
 }
 #manuscripter_image {
   background-image: url('../img/manuscripter.png');
+}
+#medidata_image {
+  background-image: url('../img/medidata.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#talklight_image {
+  background-image: url('../img/manuscripter.png');
+}
+#playontime_image {
+  background-image: url('../img/manuscripter.png');
+}
+#myophysio_image {
+  background-image: url('../img/myophysio.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #website_image {
   background-image: url('../img/website.png');
 }
 #piano_image {
   background-image: url('../img/elec-piano-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .demo-link {
   font-weight: bold;
@@ -135,19 +160,41 @@
 }
 #uwaterloo_image {
   background-image: url('../img/waterloo-logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #markham_image {
   background-image: url('../img/markham-logo.png');
   background-repeat: no-repeat;
   background-position: center;
 }
-.experience-panel {
-  margin: 0.5em;
-}
 .experience-description {
   margin: 1em;
   text-align: center;
   display: inline-block;
+}
+.experience-image {
+  height: 250px;
+  width: 226px;
+  display: block;
+  margin-left: auto;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-top: 2.5em;
+  background-repeat: no-repeat;
+}
+#nicoya_image {
+  background-image: url('../img/nicoya.png');
+  background-size: contain;
+}
+#genesys_image {
+  background-image: url('../img/genesys.png');
+}
+#ura_image {
+  background-image: url('../img/waterloo-logo.png');
+}
+#cole_image {
+  background-image: url('../img/cole_engineering.png');
 }
 /* entire container, keeps perspective */
 /* flip the pane when hovered */
@@ -184,11 +231,13 @@
   -webkit-transform: rotateY(180deg);
 }
 body {
-  font-family: Segoe UI, Helvetica, Arial, Tahoma;
+  font-family: Segoe UI light, Helvetica, Arial, Tahoma;
   margin: 0em;
+  background: url('../img/mountain.jpg');
+  background-attachment: fixed;
   background: #edd9c2;
   background-position: center top;
-  background-size: stretch;
+  background-size: fill;
 }
 h1 {
   font-size: 3em;
@@ -204,7 +253,7 @@ h3 {
   margin-top: 0.1em;
 }
 h4 {
-  margin: 0px 0px 0px 1em;
+  margin: 0px 0px 0px 0em;
 }
 a {
   text-decoration: none;
@@ -223,7 +272,7 @@ a {
   font-size: 2em;
 }
 #content-panel {
-  padding: 2em;
+  padding: 0em 2em 1em 2em;
   color: black;
 }
 #content-panel a:link {
@@ -238,7 +287,7 @@ a {
 .thumbnail {
   width: 100%;
   height: 300px;
-  border: 0.5em solid #e53232;
+  border: 0.5em solid #000000;
   background-color: #ffffff;
 }
 .row-fluid {
