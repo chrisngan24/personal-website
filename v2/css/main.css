@@ -2,6 +2,8 @@
   width: 100%;
   border-bottom: 2px #1f8dd6;
   background-image: url('../images/nyc.jpg');
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 .title-panel h1 {
   margin: 0em;
@@ -14,7 +16,7 @@
   display: inline;
 }
 body {
-  font: 13px/14px Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .center {
   text-align: center;
@@ -32,9 +34,3 @@ body {
 .nav-centered-pills a {
   float: left;
 }
-/*
-.centered-pills { text-align:center; }
-.centered-pills ul.nav-pills { display:inline-block; }
-.centered-pills li { display:inline; }
-.centered-pills a { float:left; }
-//* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
