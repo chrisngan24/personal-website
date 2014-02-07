@@ -1,11 +1,11 @@
 <div class="thumbnail" ontouchstart="this.classList.toggle('hover');">
   <div class="flipper">
     <div class="front">
-      <h1>TITLE</h1>
-      <img src="">
+      <h1>Manuscripter</h1>
+      <img src="images/manuscripter.png">
     </div>
     <div class="back">
-      <p>BLURB</p>
+      <p>A web app that acts as a tool which provides biblical text without any annotations to provide plain, old Scripture</p>
       <a href="">LINK</a>
     </div>
   </div>
