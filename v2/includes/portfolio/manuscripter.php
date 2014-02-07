@@ -6,7 +6,7 @@
     </div>
     <div class="back">
       <p>A web app that acts as a tool which provides biblical text without any annotations to provide plain, old Scripture</p>
-      <a href="">LINK</a>
+      <a href="https://github.com/chrisngan24/manuscripter">Github</a>
     </div>
   </div>
 </div>
