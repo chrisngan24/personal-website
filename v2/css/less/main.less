@@ -1,6 +1,7 @@
 @import "variable.less";
 @import "title.less";
-
+@import "home.less";
+@import "flipper.less";
 body{
 
     font-family: 'Open Sans', sans-serif; 
@@ -8,7 +9,6 @@ body{
 }
 .center{
     text-align: center;
-    color: white;
 }
 
 .nav-centered-pills{
@@ -19,3 +19,27 @@ body{
     li{display:inline;}
     a{float:left}
 }
+
+.hidden{
+  display:none;
+}
+
+.quote{
+  margin: 4em;
+}
+
+
+.center-list{
+  list-style-type:none;
+  text-align:center;
+  margin-right:0px;
+  margin-left:0px;
+  h4{
+    margin:0px;
+  }
+}
+
+hr{
+  border-top-color:@borderColor;
+}
+

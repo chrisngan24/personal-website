@@ -1,3 +1,12 @@
+/**
+  * Base Colors
+  */
+/**
+  * Standard Colors
+  */
+/**
+  * Urls
+  */
 .title-panel {
   width: 100%;
   border-bottom: 2px #1f8dd6;
@@ -15,12 +24,69 @@
 .title-panel ul li {
   display: inline;
 }
+.title-panel .center {
+  color: #ffffff;
+}
+/* entire container, keeps perspective */
+.thumbnail {
+  perspective: 1000;
+  text-align: center;
+  box-shadow: none;
+  border: none;
+}
+.thumbnail p {
+  padding-top: 2em;
+}
+/* flip the pane when hovered */
+.thumbnail:hover .flipper,
+.thumbnail.hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+}
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  position: relative;
+}
+/* hide back of pane during swap */
+.front,
+.back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
 .center {
   text-align: center;
-  color: white;
 }
 .nav-centered-pills {
   text-alignt: center;
@@ -33,4 +99,22 @@ body {
 }
 .nav-centered-pills a {
   float: left;
+}
+.hidden {
+  display: none;
+}
+.quote {
+  margin: 4em;
+}
+.center-list {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.center-list h4 {
+  margin: 0px;
+}
+hr {
+  border-top-color: #333333;
 }
