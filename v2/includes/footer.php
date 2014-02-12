@@ -1,8 +1,8 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="span12">
-        <a href="https://twitter.com/chrisngan1">Twitter</a>
+      <div class="offset4 span4">
+        <a href="https://github.com/chrisngan24"><img src="images/icons/github.png"></img></a>
       </div>
     </div>
   </div>

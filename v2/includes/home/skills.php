@@ -25,11 +25,11 @@
       </li>
       <li>
         <h4>Passions</h4>
-        <p>Social Justice, Food, Music</p>
+        <p>Interested in issues such as Human Trafficking, Poverty, Food Security and Healthcare</p>
       </li>
       <li>
         <h4>Creative</h4>
-        <p>User Interface, Side Projects</p>
+        <p>Product Conception, User Experience </p>
       </li>
     </ul>
   </div>

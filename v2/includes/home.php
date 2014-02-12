@@ -8,7 +8,7 @@
   </div>
   <div class="row">
     <div class="span12">
-      <p class="center">With a desire to learn, I am individual with a desire to create things I am deeply passionate for.  I am excited for the future where I hope to create solutions for social problems that exist throughout the world.  My training as an engineer is a stepping stone to prepare for this dream.</p>
+      <p class="center">With a desire to learn, I am an individual with a desire to create things I am deeply passionate for.  I am excited for the future where I hope to create solutions for social problems that exist throughout the world.  My training as an engineer is a stepping stone to prepare for this dream.</p>
     </div> 
   </div>
   <div class="row">
@@ -25,4 +25,8 @@
       </div> 
     </div>
   </div>
+  <div class="row">
+    <div class="span12"><hr></div>
+  </div>
+  <?php include('home/work.php'); ?>
 </div>

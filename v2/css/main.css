@@ -127,3 +127,6 @@ body {
 hr {
   border-top-color: #333333;
 }
+.flipper-small {
+  height: 100px;
+}
