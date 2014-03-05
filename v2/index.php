@@ -10,10 +10,12 @@
     <script type="text/javascript" src="js/main.js"></script>
   </head>
   <body>
-    <div class="title-panel">
-      <?php include('includes/nav.php'); ?>
-    </div>
     <div class="container">
+      <div class="title-panel">
+        <?php include('includes/nav.php'); ?>
+      </div>
+    </div>
+    <div class="container well">
       <?php include('includes/home.php'); ?>    
       <?php include('includes/portfolio.php'); ?>    
     </div>

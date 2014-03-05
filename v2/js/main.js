@@ -27,7 +27,7 @@ var onHashChange = function(e){
  * Fades content in and Out
  */
 var fadeContent  = function(divId){
-  var fadeTime = 400;
+  var fadeTime = 200;
   $('.content').fadeOut(fadeTime, function(){
     $('.content').addClass('hidden');
     $(divId)

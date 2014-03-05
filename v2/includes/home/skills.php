@@ -4,7 +4,7 @@
     <ul class="center-list">
       <li>
         <h4>Programming</h4>
-        <p>Java, C#, C++, Javascript, Python, Ruby, HTML, CSS</p>
+        <p>Javascript, Java, C#, C++, Python, Ruby, HTML, CSS</p>
       </li>
       <li>
         <h4>Database</h4>

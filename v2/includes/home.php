@@ -7,10 +7,14 @@
     </div>
   </div>
   <div class="row">
-    <div class="span12">
-      <p class="center">With a desire to learn, I am an individual with a desire to create things I am deeply passionate for.  I am excited for the future where I hope to create solutions for social problems that exist throughout the world.  My training as an engineer is a stepping stone to prepare for this dream.</p>
+    <!--<div class="offset2 span2">
+    </div>-->
+    <div class="offset2 span8">
+      <img src="images/headshot.png" class="headshot img-circle"></img>
+      <p class="center">Hi there!  I am a student at the University of Waterloo studying System Design Engineering.  As an engineering student, I am excited to be learning a diverse variety of skills, from software development to solution architecture.  My ultimate goal is to be developing solutions for problems that stretch beyond the scope of a traditional engineer and to help make the world a better place.  I want to work with issues such as poverty, food security and public healthcare- but with a systematic and technical perspective.  Though I have a long way to go before achieving my dream, my time as a student is a chance to try new things and to learn from experiences.</p>
     </div> 
   </div>
+<!--
   <div class="row">
     <div class="span12"><hr></div>
   </div>
@@ -25,6 +29,7 @@
       </div> 
     </div>
   </div>
+  -->
   <div class="row">
     <div class="span12"><hr></div>
   </div>

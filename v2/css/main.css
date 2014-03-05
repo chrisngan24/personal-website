@@ -9,14 +9,14 @@
   */
 .title-panel {
   width: 100%;
-  border-bottom: 2px #1f8dd6;
-  background-image: url('../images/nyc.jpg');
+  border-bottom: 2px #477f99;
   padding-top: 3em;
   padding-bottom: 3em;
+  text-align: center;
 }
 .title-panel h1 {
   margin: 0em;
-  padding: 1em;
+  padding: 0.2em;
 }
 .title-panel ul {
   text-align: center;
@@ -24,8 +24,13 @@
 .title-panel ul li {
   display: inline;
 }
-.title-panel .center {
-  color: #ffffff;
+.title-panel ul a {
+  border-radius: 0px;
+}
+#home_content .headshot {
+  margin: 1em;
+  height: 10em;
+  float: left;
 }
 /* entire container, keeps perspective */
 .thumbnail {
@@ -86,16 +91,19 @@
   -ms-transform: rotateY(180deg);
 }
 .footer {
-  background-image: url('../images/nyc.jpg');
-  background-position: bottom;
-  padding: 5em;
   margin-top: 5em;
+  text-align: center;
 }
 body {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  background-image: url('../images/tree_bark.png');
+  background-attachment: fixed;
 }
 .center {
   text-align: center;
+}
+p {
+  font-size: 1.1em;
 }
 .nav-centered-pills {
   text-alignt: center;
@@ -113,7 +121,7 @@ body {
   display: none;
 }
 .quote {
-  margin: 4em;
+  margin: 0em 4em 2em 4em;
 }
 .center-list {
   list-style-type: none;
@@ -129,4 +137,16 @@ hr {
 }
 .flipper-small {
   height: 100px;
+}
+a {
+  color: #477f99;
+}
+.nav-pills > .active > a {
+  background-color: #477f99;
+}
+.nav-pills > .active > a:focus {
+  background-color: #477f99;
+}
+.nav-pills > .active > a:hover {
+  background-color: #477f99;
 }

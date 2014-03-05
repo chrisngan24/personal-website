@@ -1,12 +1,16 @@
 <div class="">
   <div class="row-fluid">
     <div class="span12">
-        <h1 class="center">Christopher Ngan</h1>
+        <h1 class="">Christopher Ngan</h1>
     </div>
   </div>
   <div class="row-fluid">
-    <!-- hack, should find way to properly center -->
-    <div class="offset5 span4">
+    <div class="span12">
+      <p class="center">Create Change</p>
+    </div>
+  </div>
+  <div class="row-fluid ">
+    <div class="span12">
       <div class="nav-centered-pills">
         <ul class="nav nav-pills">
           <li id="home_link">

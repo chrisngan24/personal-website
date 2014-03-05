@@ -6,13 +6,18 @@
 @import "footer.less";
 body{
 
-    font-family: 'Trebuchet MS', sans-serif; 
+    font-family:"Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; 
+    
     //font: 13px/14px Arial,sans-serif;
+    background-image:url(@backgroundImage);
+    background-attachment:fixed;
 }
 .center{
     text-align: center;
 }
-
+p{
+  font-size:1.1em;
+}
 .nav-centered-pills{
     text-alignt:center;
     ul.nav-pills{
@@ -27,7 +32,7 @@ body{
 }
 
 .quote{
-  margin: 4em;
+  margin: 0em 4em 2em 4em;
 }
 
 
@@ -47,4 +52,19 @@ hr{
 
 .flipper-small{
   height:100px;
+}
+
+
+a{
+  color: @blue;
+}
+.nav-pills>.active>a{
+  background-color: @blue;
+}
+.nav-pills>.active>a:focus{
+    background-color: @blue;
+
+}
+.nav-pills>.active>a:hover{
+  background-color: @blue;
 }
