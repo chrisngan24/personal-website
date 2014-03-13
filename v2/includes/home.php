@@ -1,8 +1,8 @@
 <div id="home_content" class="content hidden">
   <div class="row">
-    <div class="span12">
+    <div class="offset1 span10">
       <div class="quote">
-        <h2 class="center">"Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction." - Albert Einstein</h2>
+        <h4 class="center">"Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction." - Albert Einstein</h4>
       </div>
     </div>
   </div>

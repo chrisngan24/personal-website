@@ -6,7 +6,7 @@
   </div>
   <div class="row-fluid">
     <div class="span12">
-      <p class="center">Create Change</p>
+      <!--<p class="center">Create Change</p>-->
     </div>
   </div>
   <div class="row-fluid ">
