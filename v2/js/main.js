@@ -8,7 +8,7 @@ $(document).ready(function(){
     onHashChange(e); 
   }
   if(window.location.hash == ''){
-    var href = $('#home_link a').attr('href');
+    var href = $('#portfolio_link a').attr('href');
     window.location.href = href;
   }
 });

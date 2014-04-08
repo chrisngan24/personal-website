@@ -5,7 +5,7 @@
       <img src="images/myophysio.png" class="img-polaroid">
     </div>
     <div class="back">
-      <p>Submission at the Next36 Wearable Computing Hackathon. MyoPhysio is a physiotherapy tool for patients to use at home.  The purpose is to use the myo to record the progress of their recovery by guiding them through predefiend exercises.  The information is recorded and then also shared with their doctor.</p>
+      <p>Submission at the Next36 Wearable Hackathon. MyoPhysio is a physiotherapy tool for patients to use at home to gain better feedback of recovery exercises.  Was part of the first round of public developers on Thalmic Lab's Myo.</p>
     </div>
   </div>
 </div>

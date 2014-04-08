@@ -10,9 +10,16 @@
   }
 
   img{
-    height:16em;
+    height:20em;
+    width: 100em;
   }
+  @media all and (max-width: 972px){
+    img{
+      width: auto;
+    }
+  } 
 }
+
 /* flip the pane when hovered */
 .thumbnail:hover .flipper, .thumbnail.hover .flipper {
   transform: rotateY(180deg);

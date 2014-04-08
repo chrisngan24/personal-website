@@ -5,7 +5,7 @@
       <img src="images/medidata.png" class="img-polaroid">
     </div>
     <div class="back">
-      <p>Developed at MHacks competition.  Medidata is a system developed for communities in 3rd world countries to report their medical needs to health providers through text messaging.  The project received an award for <strong>Best Use of MongoDB</strong>.</p>
+      <p>Developed at MHacks hackathon .  Medidata is a system developed for communities in 3rd world countries to report their medical needs to health providers through text messaging.  The project received an award for <strong>Best Use of MongoDB</strong>.</p>
       <a href="https://github.com/chrisngan24/MediData">Github</a>
     </div>
   </div>

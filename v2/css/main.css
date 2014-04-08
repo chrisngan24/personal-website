@@ -11,7 +11,7 @@
   width: 100%;
   border-bottom: 2px #477f99;
   padding-top: 3em;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   text-align: center;
 }
 .title-panel h1 {
@@ -27,10 +27,13 @@
 .title-panel ul a {
   border-radius: 0px;
 }
-#home_content .headshot {
+#about_content .headshot {
   margin: 1em;
   height: 10em;
   float: left;
+}
+#about_content p {
+  text-align: justify;
 }
 /* entire container, keeps perspective */
 .thumbnail {
@@ -42,7 +45,13 @@
   padding-top: 2em;
 }
 .thumbnail img {
-  height: 16em;
+  height: 20em;
+  width: 100em;
+}
+@media all and (max-width: 972px) {
+  .thumbnail img {
+    width: auto;
+  }
 }
 /* flip the pane when hovered */
 .thumbnail:hover .flipper,
@@ -92,18 +101,27 @@
 }
 .footer {
   margin-top: 5em;
+  margin-bottom: 5em;
   text-align: center;
+}
+.footer .img-link {
+  height: 5em;
+  padding: 1em;
 }
 body {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  background-image: url('../images/tree_bark.png');
+  color: black;
+  background-image: url('../images/retina_wood.png');
   background-attachment: fixed;
 }
 .center {
   text-align: center;
 }
 p {
-  font-size: 1.1em;
+  font-size: 1.3em;
+}
+.small {
+  font-size: 1.2em;
 }
 .nav-centered-pills {
   text-alignt: center;
